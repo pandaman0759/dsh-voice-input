@@ -1,0 +1,29 @@
+{
+  "meta": {
+    "title": "Voice input",
+    "description": "Dictate into the composer with Doubao streaming speech recognition."
+  },
+  "button": {
+    "label": "Voice input",
+    "hint": "Click to start dictating, click again to insert the text"
+  },
+  "dialog": {
+    "title": "Doubao speech recognition",
+    "intro": "Paste the API key from the Volcano Engine console once. It is stored as a credential record, never in configuration.",
+    "apiKey": "API key",
+    "resourceId": "Resource ID",
+    "cancel": "Cancel",
+    "save": "Save",
+    "saving": "Saving…"
+  },
+  "state": {
+    "idle": "Dictate",
+    "listening": "Listening… click to stop",
+    "uploading": "Recognising…",
+    "noSpeech": "No speech recognised",
+    "micDenied": "Microphone access was denied",
+    "notConfigured": "Set the Doubao API key first",
+    "insertRejected": "The draft changed while listening; the text is copied to the clipboard",
+    "copied": "Recognised text copied to the clipboard"
+  }
+}

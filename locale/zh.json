@@ -1,0 +1,29 @@
+{
+  "meta": {
+    "title": "语音输入",
+    "description": "用豆包流式语音识别，把说的话直接转成输入框里的文字。"
+  },
+  "button": {
+    "label": "语音输入",
+    "hint": "点一下开始说话，再点一下把文字写进输入框"
+  },
+  "dialog": {
+    "title": "豆包语音识别",
+    "intro": "把火山引擎控制台的 API Key 填一次就行，会存成凭据记录，不写进配置文件。",
+    "apiKey": "API Key",
+    "resourceId": "Resource ID",
+    "cancel": "取消",
+    "save": "保存",
+    "saving": "保存中…"
+  },
+  "state": {
+    "idle": "语音输入",
+    "listening": "正在听… 点一下结束",
+    "uploading": "识别中…",
+    "noSpeech": "没识别到说话内容",
+    "micDenied": "麦克风权限被拒绝了",
+    "notConfigured": "先填豆包 API Key",
+    "insertRejected": "听写期间草稿被改过，文字已复制到剪贴板",
+    "copied": "识别结果已复制到剪贴板"
+  }
+}
